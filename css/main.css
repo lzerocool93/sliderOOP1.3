@@ -1,0 +1,39 @@
+body{
+    background: url('../images/spiration dark.png');
+}
+/*
+
+.clearfix:after , .clearfix:before{
+    content: ' ';
+    display: block;
+    height: 0;
+    clear: both;
+}
+*/
+
+
+.gallery{
+    width: 550px;
+    height:530px; 
+    margin: 50px auto;
+    position: relative;
+}
+.photos{
+    height: inherit;
+}
+.btns{
+    position: absolute;
+    top:510px;
+    left:200px;
+    text-align: center;
+}
+.gallery .photos img{
+    position: absolute;
+    opacity:  0;
+    transition: opacity 1s;
+    
+}
+.gallery .photos img.showed{
+    opacity: 1;
+}
+
